@@ -1,0 +1,26 @@
+.data_table {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 8px 8px 4px #888;
+    border: .1px solid rgb(201, 201, 201);
+    border-radius: 5px;
+    padding: 1rem 0;
+}
+.data_table .data_table_list {
+    margin: 0 5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .data_table {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+
+    .data_table .data_table_list {
+        margin: 0 2rem;
+    }
+}

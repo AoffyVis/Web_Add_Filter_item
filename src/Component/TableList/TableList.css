@@ -1,0 +1,85 @@
+.table_list {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.data_table_header {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.data_table_CTA {
+    width: 100%;
+    height: auto;
+    position: relative;
+    float: right;
+    text-align: right;
+    display: block;
+}
+
+.data_table_CTA>div{
+    margin: 1rem 0;
+}
+
+.data_table_CTA input{
+    width: 250px;
+    height: 20px;
+    margin: 0 auto;
+    position: relative;
+    padding: 5px;
+}
+
+.table_header {
+    width: 100%;
+    height: auto;
+    text-align: left;
+}
+
+.table_body {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.friut_detail {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    text-align: left;
+    padding: 10px 0;
+    border-top: 1px solid #000;
+}
+
+.table_body>.friut_detail>.friut_name {
+    width: 20%;
+}
+
+.table_body>.friut_detail>.fruit_image>img{
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+    .data_table_CTA input{
+        width: 60%;
+    }
+
+    .table_body>.friut_detail>.friut_name {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 432px) {
+
+    .friut_detail {
+        text-align: center;
+    }
+    .table_body>.friut_detail>.friut_name {
+        white-space: nowrap;
+    }
+}

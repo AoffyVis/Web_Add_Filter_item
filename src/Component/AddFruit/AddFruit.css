@@ -1,0 +1,95 @@
+.table_add_fruit {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.back_icon {
+    text-align: left;
+}
+
+.table_add_header {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form__area {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+.form-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    gap: 3rem;
+    box-sizing: border-box;
+}
+
+.form-control label{
+    font-size: 1.5vw;
+    box-sizing: border-box;
+}
+
+.form-control input{
+    width: calc(500px - 1vmin);
+    height: 40px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.Btn {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.Btn button{
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    .form-control input{
+        width: calc(300px - 1vmin);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .form-control label{
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (max-width: 686px) {
+    .form-control input{
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+
+    .form-control {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+        gap: 1rem;
+    }
+
+    .form-control label{
+        font-size: 4vw;
+    }
+
+    .form-control input{
+        width: 100%;
+    }
+}
